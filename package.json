@@ -1,6 +1,19 @@
-"dependencies": {
-  "express": "^4.18.2",
-  "@vercel/node": "^3.0.0",
-  "dotenv": "^16.0.3",
-  "cors": "^2.8.5"
+{
+  "name": "trojan-discord-tool",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@vercel/node": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.0.0"
+  }
 }
